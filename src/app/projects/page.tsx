@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const projects = [
     {
@@ -55,7 +56,16 @@ const projects = [
 
 export default function ProjectsPage() {
     return (
-        <main className="min-h-screen bg-slate-900 text-white px-6 py-12">
+        <main className="min-h-screen bg-slate-900 text-white px-6 py-12 relative">
+            {/* Botão de voltar */}
+            <Link
+                href="/"
+                className="absolute top-6 left-6 w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-md shadow-md transition transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
+                           before:content-[''] before:absolute before:top-0 before:right-0 before:w-4 before:h-4 before:bg-orange-700 before:rounded-tr-md before:clip-path-[polygon(0_0,100%_0,100%_100%)]"
+            >
+                ←
+            </Link>
+
             <h1 className="text-4xl font-bold text-center text-orange-400 mb-12">
                 Experiências | Experiences
             </h1>

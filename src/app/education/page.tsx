@@ -1,10 +1,20 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function EducationPage() {
     return (
-        <main className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white px-6 py-12 flex flex-col items-center">
+        <main className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white px-6 py-12 flex flex-col items-center relative">
+            {/* Botão de voltar */}
+            <Link
+                href="/"
+                className="absolute top-6 left-6 w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-md shadow-md transition transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
+                           before:content-[''] before:absolute before:top-0 before:right-0 before:w-4 before:h-4 before:bg-orange-700 before:rounded-tr-md before:clip-path-[polygon(0_0,100%_0,100%_100%)]"
+            >
+                ←
+            </Link>
+
             <motion.h1
                 className="text-4xl md:text-5xl font-bold text-orange-400 mb-8 text-center"
                 initial={{ opacity: 0, y: -50 }}

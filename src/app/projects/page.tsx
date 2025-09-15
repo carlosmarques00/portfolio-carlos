@@ -32,7 +32,7 @@ const projects = [
         title: "Freelancer",
         description:
             "Desenvolvimento de soluções sob medida para clientes diversos, com foco em qualidade e boas práticas.\n\nDelivered tailor-made solutions for various clients as an independent developer, always focusing on quality and best practices.",
-        tech: ["React", "Node.js", "PHP", "Laravel", "Java", "Spring", "Spring Boot", "MySQL", "PostgreSQL"],
+        tech: ["React", "Node.js", "PHP", "Laravel", "Java", "Spring", "Spring Boot", "MySQL", "PostgreSQL", "Vue.js"],
     },
     {
         title: "RURALTINS",

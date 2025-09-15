@@ -14,13 +14,13 @@ const projects = [
         title: "Afilio V3",
         description:
             "Atuação em projetos de larga escala com foco em performance, escalabilidade, observabilidade e resolução de problemas. Microsserviços em diversas linguagens diferentes trazendo robustez e otimização com Golang e MongoDb. Fullstack em PHP/Laravel e Vue.js/JavaScript.\n\nParticipation in large-scale projects focused on performance, scalability, observability, and problem-solving. Built robust microservices in multiple languages, optimized with Golang and MongoDB. Fullstack development with PHP/Laravel and Vue.js/JavaScript.",
-        tech: ["PHP", "Laravel", "Vue.js", "JavaScript", "Node.js", "Golang", "Docker", "Microsserviços", "Quasar", "Landing Pages", "Wordpress", "MySql"],
+        tech: ["PHP", "Laravel", "Vue.js", "JavaScript", "Node.js", "Golang", "Docker", "Microsserviços", "Quasar", "Landing Pages", "Wordpress", "MySql", "AWS",],
     },
     {
         title: "Dynaton",
         description:
             "Alocado na Dynaton, desenvolvi a Dashboard Smartmail de Disparos de Email, configuração de domínios, configuração de Postal e Sending Servers via SMTP. Implementação de APIs, microsserviços e Resolução de problemas.\n\nAt Dynaton, I developed the Smartmail Dashboard for Email Campaigns, domain configuration, Postal and Sending Servers via SMTP. Implemented APIs, microservices, and handled troubleshooting.",
-        tech: [ "PHP", "Node.js", "Laravel", "Docker", "MySql", "Infraestrutura", "DevOps"],
+        tech: [ "PHP", "Node.js", "Laravel", "Docker", "MySql", "Infraestrutura", "DevOps", "AWS",],
     },
     {
         title: "E-business4us INC",

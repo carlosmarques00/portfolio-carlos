@@ -8,7 +8,7 @@ const projects = [
         title: "Lyncas",
         description:
             "Atuei na Lyncas, onde trabalhei principalmente com Orquestração, atuando nos apontamentos e ajustes de endpoints novos e antigos entre os diversos projetos.\n\nWorked at Lyncas mainly with Orchestration, handling adjustments and creation of new and legacy endpoints across multiple projects.",
-        tech: ["Java", "Spring", "Spring Boot"],
+        tech: ["Java", "Spring", "Spring Boot", "AKS", "Azure"],
     },
     {
         title: "Afilio V3",
@@ -49,7 +49,7 @@ const projects = [
     {
         title: "Projetos pessoais",
         description:
-            "Criação de aplicações open-source e portfólios, explorando novas tecnologias e boas práticas de desenvolvimento. Sistema de Notificações com Websockets. Em desenvolvimento um sistema de agendamentos para qualquer área de atuação.\n\nBuilt open-source applications and portfolios, exploring new technologies and development best practices. Notification System with Websockets. Currently developing a scheduling system for multiple business areas.",
+            "Criação de aplicações open-source e portfólios, explorando novas tecnologias e boas práticas de desenvolvimento. Sistema de Notificações com Websockets. Em desenvolvimento um sistema de agendamentos para quaisquer área de atuação.\n\nBuilt open-source applications and portfolios, exploring new technologies and development best practices. Notification System with Websockets. Currently developing a scheduling system for multiple business areas.",
         tech: [
             "Java",
             "Spring",

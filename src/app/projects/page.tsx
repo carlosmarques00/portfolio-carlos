@@ -8,7 +8,7 @@ const projects = [
         title: "Lyncas",
         description:
             "Atuei na Lyncas, onde trabalhei principalmente com Orquestração, atuando nos apontamentos e ajustes de endpoints novos e antigos entre os diversos projetos.\n\nWorked at Lyncas mainly with Orchestration, handling adjustments and creation of new and legacy endpoints across multiple projects.",
-        tech: ["Java", "Spring", "Spring Boot", "AKS", "Azure"],
+        tech: ["Java", "Spring", "Spring Boot", "AKS", "Azure", "RabbitMQ"],
     },
     {
         title: "Afilio V3",
@@ -20,13 +20,13 @@ const projects = [
         title: "Dynaton",
         description:
             "Alocado na Dynaton, desenvolvi a Dashboard Smartmail de Disparos de Email, configuração de domínios, configuração de Postal e Sending Servers via SMTP. Implementação de APIs, microsserviços e Resolução de problemas.\n\nAt Dynaton, I developed the Smartmail Dashboard for Email Campaigns, domain configuration, Postal and Sending Servers via SMTP. Implemented APIs, microservices, and handled troubleshooting.",
-        tech: [ "PHP", "Node.js", "Laravel", "Docker", "MySql", "Infraestrutura", "DevOps", "AWS",],
+        tech: [ "PHP", "Node.js", "Laravel", "Docker", "MySql", "Infraestrutura", "DevOps", "AWS", "Kafka"],
     },
     {
         title: "E-business4us INC",
         description:
             "Criação do zero de uma plataforma de e-commerce escalável com cashback com Vue.js, Node.js, PHP e Laravel. Desenvolvimento de chatbox com cliente e tradução em tempo real e manutenção e sustentação no projeto Supercheckout, com 14 gateways de pagamento.\n\nBuilt from scratch a scalable e-commerce platform with cashback using Vue.js, Node.js, PHP, and Laravel. Developed a chatbox with real-time translation and maintained the Supercheckout project with 14 payment gateways.",
-        tech: ["Vue.js", "JavaScript", "Node.js", "PHP", "Laravel", "MariaDb", "MongoDB"],
+        tech: ["Vue.js", "JavaScript", "Node.js", "PHP", "Laravel", "MariaDb", "MongoDB", "Kafka"],
     },
     {
         title: "Freelancer",

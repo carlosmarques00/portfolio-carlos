@@ -5,9 +5,57 @@ import Link from "next/link";
 
 const projects = [
   {
+    id: "uplexis",
+    title: "Uplexis",
+    role: "Senior Backend / Fullstack Engineer",
+    period: "Jan/2026 – Mar/2026",
+    description:
+      "Atuação como Desenvolvedor Backend Sênior / Fullstack em compliance, processamento de dados e homologação.",
+    impact: [
+      "Desenvolvimento de crawlers e automações com AWS Lambda",
+      "Processamento e homologação de dados em larga escala",
+      "Integração com serviços AWS e pipelines GitLab/GitHub",
+    ],
+    stack: [
+      "PHP",
+      "Laravel",
+      "Node.js",
+      "AWS",
+      "Lambda",
+      "Docker",
+      "GitHub",
+      "GitLab",
+    ],
+  },
+  {
+    id: "wehandle",
+    title: "wehandle",
+    role: "Senior Java / Fullstack Engineer",
+    period: "Set/2025 – Dez/2025",
+    description:
+      "Atuação como Desenvolvedor Java Sênior / Fullstack na internacionalização e homologação de dados na plataforma wehandle.",
+    impact: [
+      "Desenvolvimento de features de homologação de fornecedores",
+      "Internacionalização da plataforma",
+      "Arquitetura com EKS, Kafka e microsserviços",
+    ],
+    stack: [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "EKS",
+    ],
+  },
+  {
     id: "afilio",
     title: "Afilio V3",
     role: "Senior Fullstack Engineer",
+    period: "Jul/2022 – Ago/2025",
     description:
       "Atuação em arquitetura e desenvolvimento de microsserviços focados em performance, observabilidade e escalabilidade.",
     impact: [
@@ -30,6 +78,7 @@ const projects = [
     id: "lyncas",
     title: "Lyncas",
     role: "Backend Engineer",
+    period: "",
     description:
       "Trabalho com orquestração de serviços e manutenção de APIs em ambientes distribuídos.",
     impact: [
@@ -43,6 +92,7 @@ const projects = [
     id: "dynaton",
     title: "Dynaton",
     role: "Fullstack Engineer",
+    period: "",
     description:
       "Desenvolvimento de plataforma de disparo de e-mails com alta capacidade de entrega.",
     impact: [
@@ -64,6 +114,7 @@ const projects = [
     id: "ebusiness",
     title: "E-business4us INC",
     role: "Fullstack Engineer",
+    period: "Fev/2021 – Jun/2022",
     description:
       "Desenvolvimento de plataforma de e-commerce escalável com sistema de cashback.",
     impact: [
@@ -84,6 +135,7 @@ const projects = [
     id: "personal",
     title: "Projetos pessoais",
     role: "Software Architect",
+    period: "",
     description:
       "Exploração de arquiteturas modernas e construção de ferramentas open-source.",
     impact: [
@@ -133,9 +185,15 @@ export default function ProjectsPage() {
               {project.title}
             </h2>
 
-            <p className="text-sm text-slate-400 mb-4">
+            <p className="text-sm text-slate-400 mb-1">
               {project.role}
             </p>
+
+            {project.period && (
+              <p className="text-xs text-slate-500 mb-4">
+                {project.period}
+              </p>
+            )}
 
             <p className="text-slate-300 mb-4">
               {project.description}

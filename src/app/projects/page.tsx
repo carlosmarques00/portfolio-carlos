@@ -4,144 +4,162 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const projects = [
-    {
-        title: "Lyncas",
-        description:
-            "Atuei na Lyncas, onde trabalhei principalmente com Orquestração, atuando nos apontamentos e ajustes de endpoints novos e antigos entre os diversos projetos.\n\nWorked at Lyncas mainly with Orchestration, handling adjustments and creation of new and legacy endpoints across multiple projects.",
-        tech: ["Java", "Spring", "Spring Boot", "AKS", "Azure", "RabbitMQ"],
-    },
-    {
-        title: "Afilio V3",
-        description:
-            "Atuação em projetos de larga escala com foco em performance, escalabilidade, observabilidade e resolução de problemas. Microsserviços em diversas linguagens diferentes trazendo robustez e otimização com Golang e MongoDb. Fullstack em PHP/Laravel e Vue.js/JavaScript.\n\nParticipation in large-scale projects focused on performance, scalability, observability, and problem-solving. Built robust microservices in multiple languages, optimized with Golang and MongoDB. Fullstack development with PHP/Laravel and Vue.js/JavaScript.",
-        tech: ["PHP", "Laravel", "Vue.js", "JavaScript", "Node.js", "Golang", "Docker", "Microsserviços", "Quasar", "Landing Pages", "Wordpress", "MySql", "AWS",],
-    },
-    {
-        title: "Dynaton",
-        description:
-            "Alocado na Dynaton, desenvolvi a Dashboard Smartmail de Disparos de Email, configuração de domínios, configuração de Postal e Sending Servers via SMTP. Implementação de APIs, microsserviços e Resolução de problemas.\n\nAt Dynaton, I developed the Smartmail Dashboard for Email Campaigns, domain configuration, Postal and Sending Servers via SMTP. Implemented APIs, microservices, and handled troubleshooting.",
-        tech: [ "PHP", "Node.js", "Laravel", "Docker", "MySql", "Infraestrutura", "DevOps", "AWS", "Kafka"],
-    },
-    {
-        title: "E-business4us INC",
-        description:
-            "Criação do zero de uma plataforma de e-commerce escalável com cashback com Vue.js, Node.js, PHP e Laravel. Desenvolvimento de chatbox com cliente e tradução em tempo real e manutenção e sustentação no projeto Supercheckout, com 14 gateways de pagamento.\n\nBuilt from scratch a scalable e-commerce platform with cashback using Vue.js, Node.js, PHP, and Laravel. Developed a chatbox with real-time translation and maintained the Supercheckout project with 14 payment gateways.",
-        tech: ["Vue.js", "JavaScript", "Node.js", "PHP", "Laravel", "MariaDb", "MongoDB", "Kafka"],
-    },
-    {
-        title: "Freelancer",
-        description:
-            "Desenvolvimento de soluções sob medida para clientes diversos, com foco em qualidade e boas práticas.\n\nDelivered tailor-made solutions for various clients as an independent developer, always focusing on quality and best practices.",
-        tech: ["React", "Node.js", "PHP", "Laravel", "Angular", "Java", "Spring", "Spring Boot", "MySQL", "PostgreSQL", "Vue.js"],
-    },
-    {
-        title: "RURALTINS",
-        description:
-            "Construção de sistemas internos para gestão administrativa e rural. Tecnologias: Java, Spring, PHP, Laravel.\n\nBuilt internal systems for administrative and rural management. Technologies: Java, Spring, PHP, Laravel.",
-        tech: ["Java", "Spring", "PHP", "Laravel", "PostgreSQL"],
-    },
-    {
-        title: "Hospital Regional de Araguaçu",
-        description:
-            "Desenvolvimento de sistemas para gestão hospitalar, garantindo confiabilidade e escalabilidade.\n\nDeveloped hospital management systems ensuring reliability and scalability.",
-        tech: ["Java", "Spring", "PHP", "Laravel", "MySQL"],
-    },
-    {
-        title: "Projetos pessoais",
-        description:
-            "Criação de aplicações open-source e portfólios, explorando novas tecnologias e boas práticas de desenvolvimento. Sistema de Notificações com Websockets. Em desenvolvimento um sistema de agendamentos para quaisquer área de atuação.\n\nBuilt open-source applications and portfolios, exploring new technologies and development best practices. Notification System with Websockets. Currently developing a scheduling system for multiple business areas.",
-        tech: [
-            "Java",
-            "Spring",
-            "Spring Boot",
-            "Golang",
-            "PHP",
-            "Laravel",
-            "Python",
-            "Vue.js",
-            "Angular",
-            "React",
-            "React.js",
-            "Next.js",
-            "Node.js",
-            "Express",
-            "JavaScript",
-            "TypeScript",
-            "HTML",
-            "CSS",
-            "TailwindCSS",
-            "Docker",
-            "Kafka",
-            "GitHub",
-            "MySQL",
-            "PostgreSQL",
-            "Microsserviços",
-            "AKS (Azure Kubernetes Service)",
-            "EKS (Amazon Elastic Kubernetes Service)",
-            "AWS",
-            "Azure",
-            "APIs REST",
-            "Arquitetura de microsserviços",
-            "Integração contínua",
-            "Scrum",
-            "TDD",
-            "PHPUnit",
-            "WordPress",
-            "PhpMyAdmin"
-        ]
-    },
+  {
+    id: "afilio",
+    title: "Afilio V3",
+    role: "Senior Fullstack Engineer",
+    description:
+      "Atuação em arquitetura e desenvolvimento de microsserviços focados em performance, observabilidade e escalabilidade.",
+    impact: [
+      "Arquitetura de microsserviços em múltiplas linguagens",
+      "Otimização de performance em serviços críticos",
+      "Integração com múltiplos sistemas de afiliados",
+    ],
+    stack: [
+      "PHP",
+      "Laravel",
+      "Vue.js",
+      "Golang",
+      "MongoDB",
+      "Docker",
+      "AWS",
+      "Microsserviços",
+    ],
+  },
+  {
+    id: "lyncas",
+    title: "Lyncas",
+    role: "Backend Engineer",
+    description:
+      "Trabalho com orquestração de serviços e manutenção de APIs em ambientes distribuídos.",
+    impact: [
+      "Padronização de endpoints entre múltiplos serviços",
+      "Integração de sistemas legados",
+      "Melhoria na observabilidade da plataforma",
+    ],
+    stack: ["Java", "Spring", "Spring Boot", "RabbitMQ", "AKS", "Azure"],
+  },
+  {
+    id: "dynaton",
+    title: "Dynaton",
+    role: "Fullstack Engineer",
+    description:
+      "Desenvolvimento de plataforma de disparo de e-mails com alta capacidade de entrega.",
+    impact: [
+      "Dashboard Smartmail",
+      "Configuração de SMTP e servidores de envio",
+      "Arquitetura de APIs e microsserviços",
+    ],
+    stack: [
+      "PHP",
+      "Laravel",
+      "Node.js",
+      "Kafka",
+      "Docker",
+      "AWS",
+      "MySQL",
+    ],
+  },
+  {
+    id: "ebusiness",
+    title: "E-business4us INC",
+    role: "Fullstack Engineer",
+    description:
+      "Desenvolvimento de plataforma de e-commerce escalável com sistema de cashback.",
+    impact: [
+      "Plataforma criada do zero",
+      "Sistema com 14 gateways de pagamento",
+      "Chat em tempo real com tradução automática",
+    ],
+    stack: [
+      "Vue.js",
+      "Node.js",
+      "PHP",
+      "Laravel",
+      "MongoDB",
+      "Kafka",
+    ],
+  },
+  {
+    id: "personal",
+    title: "Projetos pessoais",
+    role: "Software Architect",
+    description:
+      "Exploração de arquiteturas modernas e construção de ferramentas open-source.",
+    impact: [
+      "Sistema de notificações com WebSockets",
+      "Arquitetura baseada em microsserviços",
+      "Sistema SaaS de agendamentos em desenvolvimento",
+    ],
+    stack: [
+      "Java",
+      "Spring Boot",
+      "Golang",
+      "Node.js",
+      "React",
+      "Next.js",
+      "Docker",
+      "Kafka",
+      "PostgreSQL",
+    ],
+  },
 ];
 
 export default function ProjectsPage() {
-    return (
-        <main className="min-h-screen bg-slate-900 text-white px-6 py-12 relative">
-            {/* Botão de voltar */}
-            <Link
-                href="/"
-                className="absolute top-6 left-6 w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-md shadow-md transition transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
-                           before:content-[''] before:absolute before:top-0 before:right-0 before:w-4 before:h-4 before:bg-orange-700 before:rounded-tr-md before:clip-path-[polygon(0_0,100%_0,100%_100%)]"
-            >
-                ←
-            </Link>
+  return (
+    <main className="min-h-screen bg-slate-900 text-white px-6 py-12 relative">
 
-            <h1 className="text-4xl font-bold text-center text-orange-400 mb-12">
-                Experiências | Experiences
-            </h1>
+      <Link
+        href="/"
+        className="absolute top-6 left-6 text-2xl text-orange-400 hover:text-orange-300"
+      >
+        ←
+      </Link>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {projects.map((project, index) => (
-                    <motion.div
-                        key={index}
-                        className="bg-slate-800 rounded-lg p-6 shadow-md hover:shadow-lg hover:shadow-orange-500/30"
-                        initial={
-                            index % 4 === 0
-                                ? { opacity: 0, x: -100 }
-                                : index % 4 === 1
-                                    ? { opacity: 0, y: 100 }
-                                    : index % 4 === 2
-                                        ? { opacity: 0, x: 100 }
-                                        : { opacity: 0, scale: 0.5 }
-                        }
-                        animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
-                        transition={{ duration: 0.8, delay: index * 0.2 }}
-                    >
-                        <h2 className="text-2xl font-semibold text-orange-400 mb-4">
-                            {project.title}
-                        </h2>
-                        <p className="text-slate-300 mb-4 whitespace-pre-line">{project.description}</p>
-                        <div className="flex flex-wrap gap-2">
-                            {project.tech.map((t, i) => (
-                                <span
-                                    key={i}
-                                    className="bg-orange-600/20 text-orange-300 text-sm px-3 py-1 rounded-md"
-                                >
-                                    {t}
-                                </span>
-                            ))}
-                        </div>
-                    </motion.div>
-                ))}
+      <h1 className="text-4xl font-bold text-center text-orange-400 mb-12">
+        Experiência Profissional
+      </h1>
+
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project, index) => (
+          <motion.div
+            key={project.id}
+            className="bg-slate-800 border border-slate-700 rounded-lg p-6 hover:border-orange-400 transition"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.15 }}
+          >
+            <h2 className="text-2xl font-semibold text-orange-400 mb-1">
+              {project.title}
+            </h2>
+
+            <p className="text-sm text-slate-400 mb-4">
+              {project.role}
+            </p>
+
+            <p className="text-slate-300 mb-4">
+              {project.description}
+            </p>
+
+            <ul className="text-sm text-slate-300 mb-4 list-disc list-inside space-y-1">
+              {project.impact.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+
+            <div className="flex flex-wrap gap-2">
+              {project.stack.map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-orange-500/10 text-orange-300 text-xs px-2 py-1 rounded"
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
-        </main>
-    );
+          </motion.div>
+        ))}
+      </div>
+    </main>
+  );
 }

@@ -15,7 +15,7 @@ const socialLinks = [
     { href: "mailto:carlosmarques.dev00@email.com", icon: <FaEnvelope size={20} />, label: "Email" },
     { href: "https://linkedin.com/in/carlosmarquesdev", icon: <FaLinkedin size={20} />, label: "LinkedIn" },
     { href: "https://github.com/carlosmarques00", icon: <FaGithub size={20} />, label: "GitHub" },
-    { href: "https://wa.me/5563984040951", icon: <FaWhatsapp size={20} />, label: "WhatsApp" },
+    { href: "https://wa.me/5562991594470", icon: <FaWhatsapp size={20} />, label: "WhatsApp" },
 ];
 
 export default function Home() {

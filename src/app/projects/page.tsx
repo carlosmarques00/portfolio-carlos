@@ -5,6 +5,19 @@ import Link from "next/link";
 
 const projects = [
     {
+        id: "kodes",
+        title: "KODES Tech",
+        role: "Senior Full Stack Developer",
+        period: "Mar/2026 – Abr/2026",
+        description: "Desenvolvimento fullstack em aplicação de viagens e turismo. Integrações via APIs e webhooks com serviços de terceiros. Uso ativo de IA para acelerar entregas e automatizar tarefas.",
+        impact: [
+            "Desenvolvimento fullstack com PHP, React e Angular",
+            "Integrações via APIs e webhooks com serviços de terceiros",
+            "Uso ativo de IA para acelerar entregas e automatizar tarefas",
+        ],
+        tech: ["PHP", "Laravel", "React", "Angular", "APIs", "Webhooks", "IA"],
+    },
+    {
         id: "uplexis",
         title: "Uplexis",
         role: "Senior Backend / Fullstack Engineer",

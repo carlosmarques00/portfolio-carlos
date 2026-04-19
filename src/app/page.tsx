@@ -59,7 +59,7 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.25 }}
                 >
-                    Senior Full Stack Developer · 11+ anos
+                    Senior Full Stack Developer · 12+ anos
                 </motion.p>
 
                 <motion.div
@@ -88,8 +88,8 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.45 }}
                 >
-                    Desenvolvedor Full Stack com mais de 11 anos de experiência, especializado em{" "}
-                    <span className="text-orange-300 font-medium">PHP · Laravel · Vue.js</span>
+                    Desenvolvedor Full Stack com mais de 12 anos de experiência, especializado em{" "}
+                    <span className="text-orange-300 font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript</span>
                     {" "}com domínio em SPAs, APIs RESTful e arquiteturas de microsserviços.{" "}
                     <br className="hidden md:block" />
                     Atuei em projetos de larga escala em empresas como{" "}
@@ -99,8 +99,8 @@ export default function Home() {
                     {" "}em ambientes de alta demanda.
                     <br /><br />
                     <span className="text-slate-400 italic">
-                        Full Stack Developer with over 11 years of experience, specialized in{" "}
-                        <span className="text-orange-300/80 not-italic font-medium">PHP · Laravel · Vue.js</span>
+                        Full Stack Developer with over 12 years of experience, specialized in{" "}
+                        <span className="text-orange-300/80 not-italic font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript</span>
                         {" "}with expertise in SPAs, RESTful APIs and microservice architectures.{" "}
                         <br className="hidden md:block" />
                         Worked on large-scale projects at companies like{" "}

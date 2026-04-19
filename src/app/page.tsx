@@ -83,27 +83,25 @@ export default function Home() {
                 </motion.div>
 
                 <motion.p
-                    className="text-slate-300 text-center text-base leading-relaxed max-w-2xl mb-10 space-y-2"
+                    className="text-slate-300 text-center text-base leading-relaxed max-w-2xl mb-10 space-y-4"
                     initial={{ opacity: 0, y: 12 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.45 }}
                 >
-                    Desenvolvedor Full Stack com mais de 12 anos de experiência, especializado em{" "}
-                    <span className="text-orange-300 font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript</span>
-                    {" "}com domínio em SPAs, APIs RESTful e arquiteturas de microsserviços.{" "}
-                    <br className="hidden md:block" />
-                    Atuei em projetos de larga escala em empresas como{" "}
-                    <span className="text-slate-200 font-medium">Uplexis, wehandle, Afilio e Dynaton</span>
-                    {" "}entregando soluções robustas com{" "}
-                    <span className="text-orange-300 font-medium">Java · Spring Boot · React · Node.js · Golang · Kafka · AWS · Docker</span>
-                    {" "}em ambientes de alta demanda.
+                    <span>
+                        Desenvolvedor Full Stack com mais de 12 anos de experiência, especializado em{" "}
+                        <span className="text-orange-300 font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript · React · Next.js</span>
+                        {" "}com domínio em SPAs, APIs RESTful e arquiteturas de microsserviços. Atuei em projetos de larga escala em empresas como{" "}
+                        <span className="text-slate-200 font-medium">Uplexis, wehandle, Afilio e Dynaton</span>
+                        {" "}entregando soluções robustas com{" "}
+                        <span className="text-orange-300 font-medium">Java · Spring Boot · React · Node.js · Golang · Kafka · AWS · Docker</span>
+                        {" "}em ambientes de alta demanda.
+                    </span>
                     <br /><br />
-                    <span className="text-slate-400 italic">
+                    <span className="text-slate-400 italic block">
                         Full Stack Developer with over 12 years of experience, specialized in{" "}
-                        <span className="text-orange-300/80 not-italic font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript</span>
-                        {" "}with expertise in SPAs, RESTful APIs and microservice architectures.{" "}
-                        <br className="hidden md:block" />
-                        Worked on large-scale projects at companies like{" "}
+                        <span className="text-orange-300/80 not-italic font-medium">PHP · Laravel · Vue.js · Node.js · JavaScript · TypeScript · React · Next.js</span>
+                        {" "}with expertise in SPAs, RESTful APIs and microservice architectures. Worked on large-scale projects at companies like{" "}
                         <span className="text-slate-300 not-italic font-medium">Uplexis, wehandle, Afilio and Dynaton</span>
                         {" "}delivering robust solutions with{" "}
                         <span className="text-orange-300/80 not-italic font-medium">Java · Spring Boot · React · Node.js · Golang · Kafka · AWS · Docker</span>
